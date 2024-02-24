@@ -1,0 +1,22 @@
+body{
+background-size: cover;
+background-position: center;
+color: azure;
+}
+.heading{
+    font-family: cursive;
+}
+canvas{
+
+    border: 5px solid;
+    border-radius: 25px;
+    animation-name: example;
+        animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+
+    }
+    @keyframes example{
+        from{box-shadow:1px,1px,38px grey}
+        to{box-shadow: 1px,1px,38px white;}
+    }
